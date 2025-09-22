@@ -39,6 +39,8 @@ Shows a successful CI/CD run triggered by a push to the main branch.
 
 App Output – Browser
 Confirms the app is running successfully on port 3000.
+![Alt Text]()
+
 
 
 DockerHub – Image Pushed
