@@ -1,13 +1,16 @@
-TASK 1
+# Node.js CI/CD Pipeline with GitHub Actions and Docker
+## TASK 1
+---
 
 
-## Node.js CI/CD Pipeline with GitHub Actions and Docker
+This project demonstrates a CI/CD pipeline to automatically build, test, push, and deploy a Dockerized Node.js application using: <br>
 
-This project demonstrates a CI/CD pipeline to automatically build, test, push, and deploy a Dockerized Node.js application using:
-1)Node.js – simple HTTP server
-2)GitHub Actions – CI/CD automation
-3)Docker & DockerHub – containerization and image registry
-4)Amazon EC2 – deployment
+1) Node.js – simple HTTP server <br>
+2) GitHub Actions – CI/CD automation <br>
+3) Docker & DockerHub – containerization and image registry <br>
+4) Amazon EC2 – deployment <br> 
+
+---
 
 ## Folder Structure
 
@@ -27,9 +30,9 @@ nodejs-demo-app/ <br>
 
 ## CI/CD Pipeline Flow 
 
-1)Push code to the main branch. <br>
-2)GitHub Actions builds the Docker image and pushes it to DockerHub. <br> 
-3)EC2 instance pulls the image and deploys the app using Docker. <br>
+1) Push code to the main branch. <br>
+2) GitHub Actions builds the Docker image and pushes it to DockerHub. <br> 
+3) EC2 instance pulls the image and deploys the app using Docker. <br>
 
 ## Screenshots
 
