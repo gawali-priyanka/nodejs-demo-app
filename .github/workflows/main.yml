@@ -24,4 +24,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: /demo-app:priyanka1610/demo-app:latest
+        tags: priyanka1610/demo-app:latest
